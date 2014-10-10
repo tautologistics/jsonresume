@@ -49,6 +49,7 @@
       "startDate": "1995-03-01",
       "summary": "Providing consulting services for small and large organizations. Services include: planning e-commerce solutions for 'brick and mortar' stores, troubleshooting hardware/network issues, analyzing and defining development processes, and modifying and debugging software systems",
       "highlights": [
+        "Authored the node module htmlparser",
         "Consultant for Nokia Research C3 team, working on development of next generation mobile applications and services",
         "Re-architected PHP CMS that is customized and deployed on branding sites for organizations such as Nike, Toyota, and AARP",
         "Provided on-site IT support for BasicBasic/Tee-Zone websites, store, and warehouse"
