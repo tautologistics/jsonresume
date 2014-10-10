@@ -1,0 +1,3 @@
+#!/bin/sh
+resume publish -t elegant-tautologistics
+
