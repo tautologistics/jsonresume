@@ -1,0 +1,4 @@
+#!/bin/sh
+resume export Chris.Winberry-resume -f html -t elegant-tautologistics
+resume export Chris.Winberry-resume -f pdf -t elegant-tautologistics
+

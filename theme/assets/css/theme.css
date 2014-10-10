@@ -189,3 +189,28 @@ body {
   max-height: 64px;
   margin-left: 10px;
 }
+@media(max-width:992px) {
+ .affix {
+   position: static;
+   width: auto;
+   top: 0;
+  }
+  .profile-card {
+    min-height: 180px !important;
+  }
+  .profile-pic {
+    display: none;
+  }
+  .profile-card h3 {
+    margin-top: 10px !important;
+  }
+  .profile-card hr {
+    margin: 1px 0 5px !important;
+  }
+  .contact-details {
+    text-align: center !important;
+  }
+  .contact-details .detail {
+    display: inline-block !important;
+  }
+}
