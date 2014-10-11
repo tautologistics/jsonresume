@@ -214,3 +214,32 @@ body {
     display: inline-block !important;
   }
 }
+.link-web {
+  color: #12a5f4;
+}
+.link-web:hover {
+  color: #0986ca;
+}
+@media print {
+  .social-link {
+    font-size: 0.8em;
+  }
+  .social-link::after {
+    content: attr(href) !important;
+  }
+  .link-linkedin::before {
+    content: 'LinkedIn: ';
+  }
+  .link-github::before {
+    content: 'GitHub: ';
+  }
+  .link-skype::before {
+    content: 'Skype: ';
+  }
+  .link-twitter::before {
+    content: 'Twitter: ';
+  }
+  .link-web::before {
+    content: 'WWW: ';
+  }
+}

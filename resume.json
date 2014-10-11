@@ -10,7 +10,7 @@
     "location": {
       "address": "80 Pancake Hollow Rd.",
       "postalCode": "12528",
-      "city": "Highland",
+      "city": "NYC",
       "countryCode": "US",
       "region": "New York"
     },
@@ -268,12 +268,6 @@
         "Vagrant",
         "Docker"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
     }
   ],
   "interests": [
