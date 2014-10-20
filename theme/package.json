@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-elegant-tautologistics",
-  "version": "0.1.10",
+  "version": "0.1.12",
   "description": "Elegant theme for jsonresume",
   "main": "index.js",
   "scripts": {

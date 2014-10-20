@@ -18,9 +18,8 @@
   background: #7eb0db;
   color: white;
   font-size: 0.9em;
-  padding: 3px;
+  padding: 5px;
   border: 1px solid #357ebd;
-  margin-bottom: 4px;
 }
 body {
   font-family: 'Lato';
@@ -39,7 +38,7 @@ body {
 }
 .card-nested {
   min-height: 0;
-  margin-bottom: 3px;
+  margin-bottom: 10px;
   border-width: 1px 0 0 0;
 }
 .background-card {
@@ -142,58 +141,11 @@ body {
 .link-skype:hover {
   color: #0986ca;
 }
-.card-skills {
-  position: relative;
-}
-.skill-level {
-  border-radius: 3px;
-  position: absolute;
-  top: 10px;
-  bottom: 10px;
-  left: 0;
-  width: 10px;
-  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
-}
-.skill-level .skill-progress {
-  position: absolute;
-  border-radius: 3px;
-  bottom: 0;
-  width: 100%;
-  -webkit-transition: height 1s ease;
-}
-.skill-level .skill-progress.beginner {
-  height: 50%;
-  background: #e74c3c;
-}
-.skill-level .skill-progress.intermediate {
-  height: 70%;
-  background: #f1c40f;
-}
-.skill-level .skill-progress.advanced {
-  height: 80%;
-  background: #428bca;
-}
-.skill-level .skill-progress.master {
-  height: 95%;
-  background: #5cb85c;
-}
-.skill-info {
-  margin-left: 10px;
-}
-.skill-info .space-top {
-  margin-top: 5px;
-}
-.companyLogo {
-  float: right;
-  max-width: 64px;
-  max-height: 64px;
-  margin-left: 10px;
-}
-@media(max-width:992px) {
- .affix {
-   position: static;
-   width: auto;
-   top: 0;
+@media (max-width: 992px) {
+  .affix {
+    position: static;
+    width: auto;
+    top: 0;
   }
   .profile-card {
     min-height: 180px !important;
@@ -242,4 +194,104 @@ body {
   .link-web::before {
     content: 'WWW: ';
   }
+}
+#visual-company-list {
+  float: right;
+}
+#visual-company-list li {
+  display: inline;
+  list-style: none;
+  float: left;
+}
+#visual-company-list li img {
+  max-width: 28px;
+  max-height: 28px;
+}
+.card-skills {
+  position: relative;
+}
+.skill-level {
+  border-radius: 3px;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  width: 10px;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+}
+.skill-level .skill-progress {
+  position: absolute;
+  border-radius: 3px;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: height 1s ease;
+}
+.skill-level .skill-progress.beginner {
+  height: 50%;
+  background: #e74c3c;
+}
+.skill-level .skill-progress.intermediate {
+  height: 70%;
+  background: #f1c40f;
+}
+.skill-level .skill-progress.advanced {
+  height: 80%;
+  background: #428bca;
+}
+.skill-level .skill-progress.master {
+  height: 95%;
+  background: #5cb85c;
+}
+.skill-info {
+  margin-left: 10px;
+}
+.skill-info .space-top {
+  margin-top: 5px;
+}
+.skill-info .label-keyword {
+  margin-bottom: 5px;
+}
+.companyLogo {
+  float: right;
+  max-width: 64px;
+  max-height: 64px;
+  margin-left: 10px;
+}
+.card-skills {
+  position: relative;
+}
+.skill-level {
+  border-radius: 3px;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  width: 10px;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+}
+.skill-level .skill-progress {
+  position: absolute;
+  border-radius: 3px;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: height 1s ease;
+}
+.skill-level .skill-progress.beginner {
+  height: 50%;
+  background: #e74c3c;
+}
+.skill-level .skill-progress.intermediate {
+  height: 70%;
+  background: #f1c40f;
+}
+.skill-level .skill-progress.advanced {
+  height: 80%;
+  background: #428bca;
+}
+.skill-level .skill-progress.master {
+  height: 95%;
+  background: #5cb85c;
+}
+.skill-info {
+  margin-left: 10px;
 }

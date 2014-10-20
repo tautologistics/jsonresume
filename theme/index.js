@@ -148,6 +148,12 @@ function render(resume) {
         );
     });
 
+    Handlebars.registerHelper('escape', function (text) {
+        return new Handlebars.SafeString(
+          escape(text)
+        );
+    });
+
     return Handlebars.compile(template)({
         css: css,
         resume: resume

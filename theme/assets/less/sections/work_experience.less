@@ -1,2 +1,65 @@
 @import "../variables";
 @import "../mixins";
+
+.card-skills {
+  position: relative;
+}
+
+.skill-level {
+  border-radius: 3px;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  width: 10px;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+
+  .skill-progress {
+    position: absolute;
+    border-radius: 3px;
+    bottom: 0;
+    width: 100%;
+    -webkit-transition: height 1s ease;
+  }
+
+  .skill-progress {
+    &.beginner {
+      height: 50%;
+      background: #e74c3c;
+    }
+    &.intermediate {
+      height: 70%;
+      background: #f1c40f;
+    }
+    &.advanced {
+      height: 80%;
+      background: #428bca;
+    }
+    &.master {
+      height: 95%;
+      background: #5cb85c;
+    }
+
+  }
+
+}
+
+.skill-info {
+  margin-left: 10px;
+
+  .space-top {
+    margin-top: 5px;
+  }
+
+  .label-keyword {
+    margin-bottom: 5px;
+  }
+
+}
+
+.companyLogo {
+  float: right;
+  max-width: 64px;
+  max-height: 64px;
+  margin-left: 10px;
+}

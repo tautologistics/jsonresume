@@ -116,6 +116,17 @@
 
                 <section class="col-md-9 card-wrapper pull-right">
                     <div class="card background-card">
+
+                        <ul id="visual-company-list">
+                            {{#each resume.work}}
+                                {{#if logo}}
+                                    <li>
+                                        <a href="#{{escape startDate}}"><img class="companyLogo" src="{{logo}}"></a>
+                                    </li>
+                                {{/if}}
+                            {{/each}}
+                        </ul>
+
                         <h4 class="text-uppercase text-bolder">Background</h4>
                         <hr>
 
@@ -147,12 +158,13 @@
                                     <ul class="list-unstyled">
                                         {{#each resume.work}}
                                             <li class="card card-nested clearfix">
+                                                <a name="{{escape startDate}}"></a>
                                                 <div class="content has-sidebar">
                                                     {{#if logo}}
                                                         <img class="companyLogo" src="{{logo}}">
                                                     {{/if}}
                                                     <p><strong>{{position}}</strong>,&nbsp;{{company}}</p>
-                                                    <p>{{summary}}</p>
+                                                    <p>{{breakline summary}}</p>
                                                     {{#if highlights}}
                                                         <ul>
                                                             {{#each highlights}}
@@ -292,7 +304,7 @@
                                                                 <strong>{{title}}</strong>,&nbsp;
                                                                 {{awarder}}
                                                             </p>
-                                                            <p class="clear-margin"> {{summary}} </p>
+                                                            <p class="clear-margin"> {{breakline summary}} </p>
                                                         </div>
                                                         <div class="sidebar text-muted text-center">
                                                             <p>
@@ -327,7 +339,7 @@
                                                                 <strong>{{position}}</strong>,&nbsp;
                                                                 {{organization}}
                                                             </p>
-                                                            <p>{{summary}}</p>
+                                                            <p>{{breakline summary}}</p>
                                                             <ul>
                                                                 {{#each highlights}}
                                                                     <li> {{.}} </li>
@@ -383,7 +395,7 @@
                                                                 </strong>,&nbsp;
                                                                 {{publisher}}
                                                             </p>
-                                                            <p class="clear-margin">{{summary}}</p>
+                                                            <p class="clear-margin">{{breakline summary}}</p>
                                                         </div>
                                                         <div class="sidebar text-muted text-center">
                                                             <p>

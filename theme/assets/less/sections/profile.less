@@ -1,0 +1,57 @@
+@import "../variables";
+@import "../mixins";
+
+@media(max-width:992px) {
+ .affix {
+   position: static;
+   width: auto;
+   top: 0;
+  }
+  .profile-card {
+    min-height: 180px !important;
+  }
+  .profile-pic {
+    display: none;
+  }
+  .profile-card h3 {
+    margin-top: 10px !important;
+  }
+  .profile-card hr {
+    margin: 1px 0 5px !important;
+  }
+  .contact-details {
+    text-align: center !important;
+  }
+  .contact-details .detail {
+    display: inline-block !important;
+  }
+}
+.link-web {
+  color: #12a5f4;
+}
+.link-web:hover {
+  color: #0986ca;
+}
+@media print {
+  .social-link {
+    font-size: 0.8em;
+  }
+  .social-link::after {
+    content: attr(href) !important;
+  }
+  .link-linkedin::before {
+    content: 'LinkedIn: ';
+  }
+  .link-github::before {
+    content: 'GitHub: ';
+  }
+  .link-skype::before {
+    content: 'Skype: ';
+  }
+  .link-twitter::before {
+    content: 'Twitter: ';
+  }
+  .link-web::before {
+    content: 'WWW: ';
+  }
+}
