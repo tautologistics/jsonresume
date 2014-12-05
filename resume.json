@@ -162,6 +162,15 @@
   ],
   "skills": [
     {
+      "name": "Currently learning",
+      "level": "Beginner",
+      "keywords": [
+        "React/Flux",
+        "Haskell",
+        "Rust"
+      ]
+    },
+    {
       "name": "Front end",
       "level": "Master",
       "keywords": [
