@@ -36,7 +36,7 @@
       "startDate": "2013-10-01",
       "summary": "Techstars NYC class of 2012 and a Holocratic company - in addition to software development, responsibilities include security, systems architecture, devops, and interviewing/hiring new engineers\n\nStack: Nginx, NodeJS, ExpressJS, Restify, Mongo, Postgresql, AngularJS, BackboneJS, Bootstrap, AWS, Heroku, Grunt, Gulp, Redis",
       "highlights": [
-        "Lead projects to consolidate configurations, establish better development processes, implement monitoring and reporting, and improve and conslidate logging and metrics",
+        "Lead projects to consolidate configurations, establish better development processes, implement monitoring and reporting, and improve and consolidate logging and metrics",
         "Designed the data driven logic engine that handles the workflow of moves from initial quote to completion",
         "Lead development of an automated pricing calculator that provides instant moving quotes based on complex van line business model"
       ]
