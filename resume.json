@@ -81,7 +81,7 @@
       "summary": "Part of the Storefronts team, providing tools and services to Etsy's legion of purveyors of all things handmade.\n\nStack: PHP, Postgresql, MySQL, Ruby, Solr/Lucene, NodeJS",
       "highlights": [
         "Rewrote the legacy Ruby on Rails currency conversion system in PHP in order to leverage all the Etsy libraries, the logging systems, and Etsy ops/monitoring",
-        "Proposed a client-side logging library that hooked into the existing backend log system. Wrote the initial code and then organised a group to review and improve the library. Once deployed, helped identify issues that users were experiencing that were not showing up with existing logging and metrics",
+        "Proposed a client-side logging library that hooked into the existing backend log system. Wrote the initial code and then organized a group to review and improve the library. Once deployed, helped identify issues that users were experiencing that were not showing up with existing logging and metrics",
         "For hack week, completely rewrote the log streaming tool (Supergrep) to remove browser memory leaks, improve data visualization, and add features including filtering, sorting, improved message parsing, and a global blacklist",
         "Managed group that added shipping options for buyers and sellers. This included a reworking of many monolithic legacy pages into the current page architecture and integrating the shipping data into the orderpath system",
         "Lead the development of the front end for the new credit card (CC) and gift card (GC) features"
